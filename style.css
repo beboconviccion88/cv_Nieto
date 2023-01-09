@@ -1,0 +1,66 @@
+/**{ outline: 1px solid red} /** ESPACIO QUE OCUPA TODOS LOS ELEMENTOS EN MI WEB."BORRAR"*/
+
+header, section {
+
+    width: 1262px;
+    margin: 0 auto;
+}
+
+header {
+
+    display: flex;
+    background-color: rgb(194, 196, 199);
+}
+
+#div1{
+    display: flex;
+    
+   
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  margin-right: 20px;
+  
+}
+
+
+
+h1 {
+
+   margin-left: 20px;
+   margin-right: 200px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    text-align: center;
+}
+
+h2{
+    background-color: rgb(4, 86, 141);
+    color: aliceblue ;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr {
+    color: rgb(4, 86, 141);
+    height: 0px;
+    border:1px dashed;
+}
+
+
+
+h3 {
+    margin-left: 50px;
+}
+
+
+h5{
+    text-align: center;
+    font-size: 25p;
+    width: 300px;
+}
+
+ul{
+    list-style: none;
+}
