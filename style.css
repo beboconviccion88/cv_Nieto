@@ -1,4 +1,4 @@
-/**{ outline: 1px solid red} /** ESPACIO QUE OCUPA TODOS LOS ELEMENTOS EN MI WEB."BORRAR"*/
+/*{ outline: 1px solid red} /** ESPACIO QUE OCUPA TODOS LOS ELEMENTOS EN MI WEB."BORRAR"*/
 
 header, section {
 
@@ -30,9 +30,9 @@ img {
 
 h1 {
 
-   margin-left: 20px;
-   margin-right: 200px;
-   font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    margin-left: 20px;
+    margin-right: 200px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
     text-align: center;
 }
 
@@ -66,3 +66,12 @@ ul{
     list-style: none;
 }
 
+a{
+    color:black;
+    text-decoration: none;
+}
+
+/*a:hover{
+    color: #E74C3C;
+
+}
