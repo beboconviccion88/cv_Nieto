@@ -1,42 +1,38 @@
-/*var icono1 = document.getElementById("icn1");
-var icono2 = document.getElementById("icn2");
-var icono3 = document.getElementById("icn3");
-*/
-var iconos = document.getElementsByClassName('iconos1');
-console.log(iconos)
 
+//NOMBRE
+var nombre = document.querySelector("#nom");
+console.log(nombre);
 
-for (let i = 0; i < iconos.length; i++){
-     
-      li.iconos1.addEventListener('mouseover', cambiarColor);
-      li.iconos1.addEventListener('mouseout', volverColor);
-}
-  
+nombre.addEventListener('mouseover', () => {
 
+    nombre.style.color = '#04568d'
+    nombre.style.setProperty("font-size", "46px"); 
     
    
+});
 
+nombre.addEventListener('mouseout', () => {
 
-function cambiarColor(element){
+    nombre.style.color = 'black'
+    nombre.style.setProperty("font-size", "45px"); 
 
+});
 
-    li.iconos1.style.color = '#007B04'; 
+//ICONOS
+
+function pintar(n, r){
+   if (r=='si'){
+    document.getElementById(n).style.color = "#900C3F"
+    document.getElementById(n).style.setProperty("font-size", "30px"); 
+   }
+   else{
+    document.getElementById(n).style.color = "#0F0D0C"
+    document.getElementById(n).style.setProperty("font-size", "25px"); 
+   }
+   
 }
-            
-    
- 
-                        
-
-function volverColor(){
-
-             li.iconos1.style.color = 'black'; 
-       
-                        }
 
 
 
-  
 
-       
-    
-    
+

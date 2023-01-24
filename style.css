@@ -9,7 +9,7 @@ header, section {
 header {
 
     display: flex;
-    background-color: rgb(194, 196, 199);
+    background-color: #c2c4c7;
 }
 
 #div1{
@@ -34,6 +34,7 @@ h1 {
     margin-right: 200px;
     font-family:Verdana, Geneva, Tahoma, sans-serif ;
     text-align: center;
+    font-size: 45px;
 }
 
 h2{
@@ -44,7 +45,7 @@ h2{
 }
 
 hr {
-    color: rgb(4, 86, 141);
+    color: #04568d;
     height: 0px;
     border:1px dashed;
 }
@@ -64,6 +65,8 @@ h5{
 
 ul{
     list-style: none;
+    text-align: justify;
+    margin-top: 40px;
 }
 
 a{
